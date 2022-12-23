@@ -16,8 +16,10 @@
 
                     <!-- You are logged in! -->
                     <div id="test_cont">
-                        This is a line with button
-                        <div id="button" class="btn btn-primary">Add</div>
+                        <div id="segment">
+                            This is a line with button
+                            <div id="button" class="btn btn-primary">Add</div>    
+                        </div>
                     </div>
                 </div>
             </div>
