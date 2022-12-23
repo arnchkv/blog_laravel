@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Authentication routes
 Auth::routes();
+
+// If your application doesn’t need registration, you may disable 
+// it by removing the newly created RegisterController and 
+// modifying your route declaration: Auth::routes(['register' => false]);.
+// Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
