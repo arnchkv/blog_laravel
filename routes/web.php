@@ -25,3 +25,5 @@ Auth::routes();
 // Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/live', 'HomeController@live')->name('live');
